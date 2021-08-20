@@ -9,7 +9,24 @@ body {
 #mainNavbar .nav-link {
   color: white;
 }
+.about h2 {
+  color: aqua;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+.about p {
+  color: white;
+  line-height: 40px;
+}
 
+.navbar.scrolled {
+  background: #dcbaa9;
+  transition: background 500ms;
+}
+
+.content {
+  margin-bottom: 30px;
+}
 #mainNavbar .nav-link:hover {
   color: #ffdab9;
 }
@@ -18,7 +35,11 @@ body {
   text-transform: uppercase;
   color: #ffdab9;
 }
-
+.contact h2 {
+  color: aqua;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
 #headingGroup span {
   color: aqua;
 }
